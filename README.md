@@ -8,18 +8,21 @@ I would love to feature your most well known product on our site. To accomplish 
 >* Company Name
 >* Product Name
 >* Product Image
->* 240px wide & 180 tall
+>  * Black & white
+>  * 240px wide & 180 tall
 
 With regards to the company-specific page, you will have two options. Please choose one and provide the appropriate content. 
 
 >Option A: Single Image - [Example](http://traivan98.xyz/Drop/single-portfolio.html)
 >* 1 Product Image
+>  * Black & white
 >  * 1240px wide & 1007px tall
 >* About The Company
 >  * ~100 words 
 
 >Option B: Parallax - [Example](http://traivan98.xyz/Drop/parallax-portfolio.html)
 >* 3 Product Images
+>  * Black & white
 >  * each 1500px wide and 1000px tall
 >* About The Company
 >  * ~100 words 
