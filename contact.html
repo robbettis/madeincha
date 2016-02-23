@@ -154,16 +154,21 @@
         <!-- ===============    imagesloaded core jquery     =============== -->
         <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
         
+        <!-- ===============    maps api JavaScript     =============== -->
+        <script type="text/javascript">
+	        function initMap() {
+				map = new google.maps.Map(document.getElementById('google-map'), {
+					center: {
+						lat: 35.0982149,
+						lng: -85.3787762
+        			},
+					zoom: 8
+    			});
+			}
+        </script>
+       
         <!-- ===============    maps api core JavaScript     =============== -->
         <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDWzbG60vbev6g6neS6zdoBLitEKn6Q400&callback=initMap"></script>
-        
-         <!-- ===============    maps api JavaScript     =============== -->
-        <script type="text/javascript">
-	        map = new google.maps.Map(document.getElementById('google-map'), {
-				center: {lat: 35.0982149, lng: -85.3787762},
-				zoom: 8
-			});
-        </script>
 
         <!-- ===============    stellar core jquery     =============== -->
         <script type="text/javascript" src="js/jquery.stellar.min.js"></script>
