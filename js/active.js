@@ -196,8 +196,8 @@ function init_masonry(){
 function gmap_init() {
 var mapOptions = {
   scrollwheel: false,
-zoom: 16,
-center: new google.maps.LatLng(35.0982149, -85.3787762), // Chattanooga
+zoom: 18,
+center: new google.maps.LatLng(35.0485769, -85.3103398), // Chattanooga
 styles: [{featureType:"landscape",stylers:[{saturation:-100},{lightness:65},{visibility:"on"}]},{featureType:"poi",stylers:[{saturation:-100},{lightness:51},{visibility:"simplified"}]},{featureType:"road.highway",stylers:[{saturation:-100},{visibility:"simplified"}]},{featureType:"road.arterial",stylers:[{saturation:-100},{lightness:30},{visibility:"on"}]},{featureType:"road.local",stylers:[{saturation:-100},{lightness:40},{visibility:"on"}]},{featureType:"transit",stylers:[{saturation:-100},{visibility:"simplified"}]},{featureType:"administrative.province",stylers:[{visibility:"off"}]/**/},{featureType:"administrative.locality",stylers:[{visibility:"off"}]},{featureType:"administrative.neighborhood",stylers:[{visibility:"on"}]/**/},{featureType:"water",elementType:"labels",stylers:[{visibility:"on"},{lightness:-25},{saturation:-100}]},{featureType:"water",elementType:"geometry",stylers:[{hue:"#ffff00"},{lightness:-25},{saturation:-97}]}]
 };
   var contentString = '<div id="mapcontent">'+
@@ -211,7 +211,7 @@ var map = new google.maps.Map(mapElement, mapOptions);
   var image = new google.maps.MarkerImage('images/pin.png',
       null, null, null, new google.maps.Size(50,71));
 
-  var myLatLng = new google.maps.LatLng(35.0982149, -85.3787762);
+  var myLatLng = new google.maps.LatLng(35.0485769, -85.3103398);
   var marker = new google.maps.Marker({
       position: myLatLng,
       map: map,
